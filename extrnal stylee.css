@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Century Gothic",sans-serif;
+}
+.menue ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(0, 40%, 50%);
+}
+
+.menue li {
+  float:right;
+}
+
+.menue li a {
+  display: block;
+  color: #FAEBD7 ;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menue li a:hover {
+  background-color: #B22222 ;
+}
+/*.root {
+	border-style:outset;
+	
+}*/
+/* box */
+.box{
+ width: 100%;
+ margin: auto;
+}
+.box .row{
+  display: flex;
+  justify-content: space-between;
+}
+.box .colum{
+  width: 32%;
+  height: auto;
+  position: relative;
+
+}
+.box img{
+ width: 100%;
+ height: auto;
+}
+.box .colum a:last-child{
+  position: absolute;
+  width: 100%;
+ height:0;
+  top: 100;
+  left: 0;
+  bottom: 0;
+  background: rgba(156, 23, 0, 0.5);
+  text-align: center;
+  color: #FAEBD7 ;
+  line-height: 35vw;
+  font-size: 3vw;
+  text-decoration: none
+  
+}
+.box .colum:hover a:last-child{
+  height: 100%;
+  top: 0;
+} 
+.sections li{
+  border-style: none;
+  padding: 8px;
+  height: 2em;
+}
+.sections h4 {
+
+  padding: 2px;
+  background-color: brown;
+  width: 150px;
+  color: #FAEBD7;
+  text-align: center;
+}
+.sections p ul li{
+  padding: 3px;
+  color: brown;
+  background-color: #FAEBD7;
+}
+ p{
+   color: brown;
+ }
+.sections{
+border-style: none;
+padding: 8px;
+height: 2em;
+
+}
+.sections h4{
+
+padding: 2px;
+background-color: brown;
+ width: 150px;
+color: #FAEBD7;
+text-align: center;
+
+}
+.sections p{
+padding: 3px;
+color: brown;
+background-color: #FAEBD7;
+
+}
+.الفروع h4{
+  display: block;
+  padding: 5px;
+  background-color: brown;
+  width: 600px;
+  color: #FAEBD7;
+  text-align: center;
+
+}
+.الفروع p{
+  padding: 10px;
+  color: brown;
+  background-color:#faebd7 ;
+}
+/*---------------------------------pictures----------------------*/
+.pictures{
+  width: 100;
+  margin:auto;
+ }
+ .pictures .row1{
+   display: flex;
+   justify-content: space-between;
+ }
+ .pictures .col{
+   width: 32%;
+   height: auto;
+   position: relative;
+ 
+ }
+ .pictures img{
+  width: 100%;
+  height: auto;
+ }
+ .pictures .col a:last-child{
+   position: absolute;
+   width: 100%;
+  height:0;
+   top: 100;
+   left: 0;
+   bottom: 0;
+   background: rgba(156, 23, 0, 0.5);
+   text-align: center;
+   color: #FAEBD7 ;
+   line-height: 35vw;
+   font-size: 3vw;
+   text-decoration: none;
+ }
+ .pictures .col:hover a:last-child{
+   height: 100%;
+   top: 0;
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

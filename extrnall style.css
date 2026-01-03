@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Century Gothic",sans-serif;
+}
+
+.menue ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(0, 40%, 50%);
+}
+
+.menue li {
+  float:right;
+}
+
+.menue li a {
+  display: block;
+  color: #FAEBD7 ;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menue li a:hover {
+  background-color: #B22222 ;
+}
+/*.root {
+	border-style:outset;
+	
+}*/
+/* box */
+.box{
+ width: 100%;
+ margin: auto;
+}
+.box .row{
+  display: flex;
+  justify-content: space-between;
+}
+.box .colum{
+  width: 32%;
+  height: auto;
+  position: relative;
+
+}
+.box img{
+ width: 100%;
+ height: auto;
+
+}
+.box .colum a:last-child{
+  position: absolute;
+  width: 100%;
+ height:0;
+  top: 100;
+  left: 0;
+  bottom: 0;
+  background: rgba(156, 23, 0, 0.5);
+  text-align: center;
+  color: #FAEBD7 ;
+  line-height: 35vw;
+  font-size: 3vw;
+  text-decoration: none
+}
+.box .colum:hover a:last-child{
+  height: 100%;
+  top: 0;
+} 
+__________الانشطة_____________
+
+ 
+  .menu > ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+    overflow: hidden;
+    }
+    .menu >ul>li{
+      display: block;
+      color: #FAEBD7 ;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+    }
+    .menu-item{
+        display: block;
+        padding: 0;
+        height: 20px;
+        line-height: 20px;
+        color: #faebd7;
+        text-decoration:none;
+    float: left;
+  
+    }
+    .menu-item:hover{
+        background-color:#B22222;}
+        .notee{
+          padding: 3px;
+          background-color:  brown;
+          color: #faebd7;
+          text-align: right;
+          width: 100px;
+          border-style: none;
+        }
+        .alltext{
+          color: #B22222;
+          padding: 3px;
+        }
+        .note1
+        {
+          list-style-type: style type;;
+          margin: 0;
+          padding:3px;
+          overflow:hidden;
+          background-color: hsl(0, 40%, 50%);
+          width: 98px;
+          float: left;
+          font-style: normal;
+          color: aliceblue;
+          }
+        .note2
+        {
+
+          list-style-type: style type;;
+          margin: 0;
+          padding:3px;
+          overflow:hidden;
+          background-color: hsl(0, 40%, 50%);
+          width: 98px;
+          float: left;
+          font-style: normal;
+          color: aliceblue;
+          }
+        
+        /*.note3{
+        list-style-type: style type;;
+        margin: 0;
+        padding: 2px;
+        overflow:hidden;
+        background-color: hsl(0, 40%, 50%);
+        width: 98px;
+        float: left;
+        font-style: normal;
+        color: aliceblue;
+        }*/
+        .nn{
+          padding: 5px;
+        }
+        .omp{
+          color: #B22222;
+          padding: 7px;
+        }
+        .mm{
+          color: #B22222;
+        }
+        /* -----------------------drop downlist--------------------*/
+        .drop-down{
+          display: none;
+        }
+        .menue ul  li:hover .drop-down{
+          display: block;
+          position: absolute;
+          background: #B22222; 
+        }
+        .menue ul  li:hover .drop-down ul{
+          display: block;
+        }
+        
+        .h{
+          border-style: none;
+          padding: 8px;
+          height: 2em;
+          
+          }
+          .h h4{
+              padding: 2px;
+              background-color:brown ;
+            width: 150px;
+          color: #faebd7;
+          text-align: center;  
+            
+          }
+          .h p{
+              padding: 3px;
+          color: brown;
+          background-color:#faebd7 ;
+          
+          }
